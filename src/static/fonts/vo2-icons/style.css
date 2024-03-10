@@ -1,0 +1,833 @@
+@font-face {
+  font-family: 'vo2-icons';
+  src:
+    url('vo2-icons.ttf?3q2el1') format('truetype'),
+    url('vo2-icons.woff?3q2el1') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="vo-icon-"], [class*=" vo-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'vo2-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vo-icon-reduce:before {
+  content: "\ea4a";
+  color: #fff;
+}
+.vo-icon-arrow-down:before {
+  content: "\e900";
+  color: #fff;
+}
+.vo-icon-arrow-left:before {
+  content: "\e901";
+  color: #fff;
+}
+.vo-icon-arrow-right:before {
+  content: "\e902";
+  color: #fff;
+}
+.vo-icon-asteroids-off:before {
+  content: "\e903";
+  color: #fff;
+}
+.vo-icon-asteroids-on:before {
+  content: "\e904";
+  color: #fff;
+}
+.vo-icon-livemap-off:before {
+  content: "\e9b0";
+  color: #fff;
+}
+.vo-icon-livemap-on:before {
+  content: "\e9b1";
+  color: #fff;
+}
+.vo-icon-miner:before {
+  content: "\e9b2";
+  color: #fff;
+}
+.vo-icon-miners-off:before {
+  content: "\e9b3";
+  color: #fff;
+}
+.vo-icon-miners-on:before {
+  content: "\e9b4";
+  color: #fff;
+}
+.vo-icon-planet-03 .path1:before {
+  content: "\e9b5";
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path2:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path3:before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path4:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path5:before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path6:before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path7:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path8:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path9:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path10:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: rgb(125, 114, 179);
+  opacity: 0.5;
+}
+.vo-icon-planet-03 .path11:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  color: rgb(125, 114, 179);
+  opacity: 0.4;
+}
+.vo-icon-planet-03 .path12:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: rgb(125, 114, 179);
+  opacity: 0.4;
+}
+.vo-icon-planet-03 .path13:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: rgb(125, 114, 179);
+  opacity: 0.4;
+}
+.vo-icon-planet-03 .path14:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path15:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  color: rgb(0, 196, 255);
+}
+.vo-icon-planet-03 .path16:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path17:before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path18:before {
+  content: "\e9c6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-03 .path19:before {
+  content: "\e9c7";
+  margin-left: -1em;
+  color: rgb(238, 140, 255);
+}
+.vo-icon-planet-03 .path20:before {
+  content: "\e9c8";
+  margin-left: -1em;
+  color: rgb(255, 97, 199);
+}
+.vo-icon-planet-03 .path21:before {
+  content: "\e9c9";
+  margin-left: -1em;
+  color: rgb(84, 70, 155);
+  opacity: 0.5;
+}
+.vo-icon-planet-03 .path22:before {
+  content: "\e9ca";
+  margin-left: -1em;
+  color: rgb(176, 79, 226);
+}
+.vo-icon-planet-03 .path23:before {
+  content: "\e9cb";
+  margin-left: -1em;
+  color: rgb(139, 64, 224);
+}
+.vo-icon-planet-03 .path24:before {
+  content: "\e9cc";
+  margin-left: -1em;
+  color: rgb(0, 196, 255);
+}
+.vo-icon-planet-03 .path25:before {
+  content: "\e9cd";
+  margin-left: -1em;
+  color: rgb(255, 119, 244);
+}
+.vo-icon-planet-03 .path26:before {
+  content: "\e9ce";
+  margin-left: -1em;
+  color: rgb(249, 198, 255);
+}
+.vo-icon-planet-03 .path27:before {
+  content: "\e9cf";
+  margin-left: -1em;
+  color: rgb(234, 156, 244);
+}
+.vo-icon-planet-03 .path28:before {
+  content: "\e9d0";
+  margin-left: -1em;
+  color: rgb(211, 116, 244);
+}
+.vo-icon-planet-03 .path29:before {
+  content: "\e9d1";
+  margin-left: -1em;
+  color: rgb(211, 116, 244);
+}
+.vo-icon-planet-03 .path30:before {
+  content: "\e9d2";
+  margin-left: -1em;
+  color: rgb(211, 116, 244);
+}
+.vo-icon-planet-03 .path31:before {
+  content: "\e9d3";
+  margin-left: -1em;
+  color: rgb(242, 196, 248);
+}
+.vo-icon-planet-03 .path32:before {
+  content: "\e9d4";
+  margin-left: -1em;
+  color: rgb(245, 206, 250);
+}
+.vo-icon-planet-11 .path1:before {
+  content: "\e9d5";
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path2:before {
+  content: "\e9d6";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path3:before {
+  content: "\e9d7";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path4:before {
+  content: "\e9d8";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path5:before {
+  content: "\e9d9";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.1;
+}
+.vo-icon-planet-11 .path6:before {
+  content: "\e9da";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.vo-icon-planet-11 .path7:before {
+  content: "\e9db";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.vo-icon-planet-11 .path8:before {
+  content: "\e9dc";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.vo-icon-planet-11 .path9:before {
+  content: "\e9dd";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.vo-icon-planet-11 .path10:before {
+  content: "\e9de";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.vo-icon-planet-11 .path11:before {
+  content: "\e9df";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path12:before {
+  content: "\e9e0";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.vo-icon-planet-11 .path13:before {
+  content: "\e9e1";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path14:before {
+  content: "\e9e2";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path15:before {
+  content: "\e9e3";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path16:before {
+  content: "\e9e4";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path17:before {
+  content: "\e9e5";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.vo-icon-planet-11 .path18:before {
+  content: "\e9e6";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path19:before {
+  content: "\e9e7";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path20:before {
+  content: "\e9e8";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path21:before {
+  content: "\e9e9";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path22:before {
+  content: "\e9ea";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path23:before {
+  content: "\e9eb";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path24:before {
+  content: "\e9ec";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path25:before {
+  content: "\e9ed";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path26:before {
+  content: "\e9ee";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path27:before {
+  content: "\e9ef";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path28:before {
+  content: "\e9f0";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path29:before {
+  content: "\e9f1";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path30:before {
+  content: "\e9f2";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path31:before {
+  content: "\e9f3";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path32:before {
+  content: "\e9f4";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path33:before {
+  content: "\e9f5";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path34:before {
+  content: "\e9f6";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path35:before {
+  content: "\e9f7";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path36:before {
+  content: "\e9f8";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path37:before {
+  content: "\e9f9";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path38:before {
+  content: "\e9fa";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path39:before {
+  content: "\e9fb";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path40:before {
+  content: "\e9fc";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path41:before {
+  content: "\e9fd";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path42:before {
+  content: "\e9fe";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path43:before {
+  content: "\e9ff";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path44:before {
+  content: "\ea00";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path45:before {
+  content: "\ea01";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path46:before {
+  content: "\ea02";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path47:before {
+  content: "\ea03";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path48:before {
+  content: "\ea04";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path49:before {
+  content: "\ea05";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path50:before {
+  content: "\ea06";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path51:before {
+  content: "\ea07";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path52:before {
+  content: "\ea08";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path53:before {
+  content: "\ea09";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path54:before {
+  content: "\ea0a";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path55:before {
+  content: "\ea0b";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path56:before {
+  content: "\ea0c";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path57:before {
+  content: "\ea0d";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path58:before {
+  content: "\ea0e";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path59:before {
+  content: "\ea0f";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path60:before {
+  content: "\ea10";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path61:before {
+  content: "\ea11";
+  margin-left: -0.8779296875em;
+  color: rgb(14, 219, 255);
+}
+.vo-icon-planet-11 .path62:before {
+  content: "\ea12";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-11 .path63:before {
+  content: "\ea13";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.vo-icon-planet-11 .path64:before {
+  content: "\ea14";
+  margin-left: -0.8779296875em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.vo-icon-planet-12 .path1:before {
+  content: "\ea15";
+  color: rgb(0, 0, 0);
+  opacity: 0.92;
+}
+.vo-icon-planet-12 .path2:before {
+  content: "\ea16";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-12 .path3:before {
+  content: "\ea17";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.vo-icon-planet-12 .path4:before {
+  content: "\ea18";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.vo-icon-planet-12 .path5:before {
+  content: "\ea19";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.vo-icon-planet-12 .path6:before {
+  content: "\ea1a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.vo-icon-planet-12 .path7:before {
+  content: "\ea1b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.vo-icon-planet-12 .path8:before {
+  content: "\ea1c";
+  margin-left: -1em;
+  color: rgb(189, 255, 232);
+  opacity: 0.25;
+}
+.vo-icon-planet-12 .path9:before {
+  content: "\ea1d";
+  margin-left: -1em;
+  color: rgb(189, 255, 232);
+  opacity: 0.25;
+}
+.vo-icon-planet-12 .path10:before {
+  content: "\ea1e";
+  margin-left: -1em;
+  color: rgb(189, 255, 232);
+  opacity: 0.25;
+}
+.vo-icon-planet-12 .path11:before {
+  content: "\ea1f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.vo-icon-planet-12 .path12:before {
+  content: "\ea20";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.vo-icon-planet-12 .path13:before {
+  content: "\ea21";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.vo-icon-planet-12 .path14:before {
+  content: "\ea22";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.vo-icon-planet-24 .path1:before {
+  content: "\ea23";
+  color: rgb(25, 166, 184);
+}
+.vo-icon-planet-24 .path2:before {
+  content: "\ea24";
+  margin-left: -1em;
+  color: rgb(46, 165, 177);
+}
+.vo-icon-planet-24 .path3:before {
+  content: "\ea25";
+  margin-left: -1em;
+  color: rgb(28, 107, 119);
+}
+.vo-icon-planet-24 .path4:before {
+  content: "\ea26";
+  margin-left: -1em;
+  color: rgb(19, 130, 151);
+}
+.vo-icon-planet-24 .path5:before {
+  content: "\ea27";
+  margin-left: -1em;
+  color: rgb(32, 122, 135);
+}
+.vo-icon-planet-24 .path6:before {
+  content: "\ea28";
+  margin-left: -1em;
+  color: rgb(10, 105, 119);
+}
+.vo-icon-planet-24 .path7:before {
+  content: "\ea29";
+  margin-left: -1em;
+  color: rgb(20, 76, 84);
+}
+.vo-icon-planet-24 .path8:before {
+  content: "\ea2a";
+  margin-left: -1em;
+  color: rgb(61, 170, 178);
+}
+.vo-icon-planet-24 .path9:before {
+  content: "\ea2b";
+  margin-left: -1em;
+  color: rgb(89, 187, 206);
+}
+.vo-icon-planet-24 .path10:before {
+  content: "\ea2c";
+  margin-left: -1em;
+  color: rgb(21, 66, 77);
+}
+.vo-icon-planet-24 .path11:before {
+  content: "\ea2d";
+  margin-left: -1em;
+  color: rgb(0, 41, 49);
+}
+.vo-icon-planet-24 .path12:before {
+  content: "\ea2e";
+  margin-left: -1em;
+  color: rgb(41, 151, 129);
+}
+.vo-icon-planet-24 .path13:before {
+  content: "\ea2f";
+  margin-left: -1em;
+  color: rgb(22, 114, 128);
+}
+.vo-icon-planet-24 .path14:before {
+  content: "\ea30";
+  margin-left: -1em;
+  color: rgb(53, 136, 145);
+}
+.vo-icon-planet-24 .path15:before {
+  content: "\ea31";
+  margin-left: -1em;
+  color: rgb(15, 54, 63);
+}
+.vo-icon-planet-24 .path16:before {
+  content: "\ea32";
+  margin-left: -1em;
+  color: rgb(28, 107, 119);
+}
+.vo-icon-planet-24 .path17:before {
+  content: "\ea33";
+  margin-left: -1em;
+  color: rgb(36, 114, 117);
+}
+.vo-icon-planet-24 .path18:before {
+  content: "\ea34";
+  margin-left: -1em;
+  color: rgb(18, 152, 179);
+}
+.vo-icon-planet-24 .path19:before {
+  content: "\ea35";
+  margin-left: -1em;
+  color: rgb(89, 187, 206);
+}
+.vo-icon-planet-24 .path20:before {
+  content: "\ea36";
+  margin-left: -1em;
+  color: rgb(17, 89, 101);
+}
+.vo-icon-planet-24 .path21:before {
+  content: "\ea37";
+  margin-left: -1em;
+  color: rgb(25, 108, 123);
+}
+.vo-icon-planet-24 .path22:before {
+  content: "\ea38";
+  margin-left: -1em;
+  color: rgb(15, 54, 63);
+}
+.vo-icon-planet-24 .path23:before {
+  content: "\ea39";
+  margin-left: -1em;
+  color: rgb(89, 187, 206);
+}
+.vo-icon-planet-24 .path24:before {
+  content: "\ea3a";
+  margin-left: -1em;
+  color: rgb(25, 108, 123);
+}
+.vo-icon-planet-24 .path25:before {
+  content: "\ea3b";
+  margin-left: -1em;
+  color: rgb(15, 54, 63);
+}
+.vo-icon-planet-24 .path26:before {
+  content: "\ea3c";
+  margin-left: -1em;
+  color: rgb(18, 152, 179);
+}
+.vo-icon-planet-24 .path27:before {
+  content: "\ea3d";
+  margin-left: -1em;
+  color: rgb(89, 187, 206);
+}
+.vo-icon-planet-24 .path28:before {
+  content: "\ea3e";
+  margin-left: -1em;
+  color: rgb(14, 90, 101);
+}
+.vo-icon-planet-24 .path29:before {
+  content: "\ea3f";
+  margin-left: -1em;
+  color: rgb(14, 90, 101);
+}
+.vo-icon-planet-24 .path30:before {
+  content: "\ea40";
+  margin-left: -1em;
+  color: rgb(3, 44, 53);
+}
+.vo-icon-planet-24 .path31:before {
+  content: "\ea41";
+  margin-left: -1em;
+  color: rgb(65, 214, 225);
+}
+.vo-icon-planet-24 .path32:before {
+  content: "\ea42";
+  margin-left: -1em;
+  color: rgb(19, 100, 112);
+}
+.vo-icon-planet-24 .path33:before {
+  content: "\ea43";
+  margin-left: -1em;
+  color: rgb(30, 78, 87);
+}
+.vo-icon-planet-24 .path34:before {
+  content: "\ea44";
+  margin-left: -1em;
+  color: rgb(8, 79, 89);
+}
+.vo-icon-planet-24 .path35:before {
+  content: "\ea45";
+  margin-left: -1em;
+  color: rgb(20, 134, 154);
+}
+.vo-icon-planet-24 .path36:before {
+  content: "\ea46";
+  margin-left: -1em;
+  color: rgb(20, 134, 154);
+}
+.vo-icon-planets-off:before {
+  content: "\ea47";
+  color: #fff;
+}
+.vo-icon-planets-on:before {
+  content: "\ea48";
+  color: #fff;
+}
+.vo-icon-plus:before {
+  content: "\ea49";
+}
+.vo-icon-star:before {
+  content: "\ea69";
+  color: #f2f2f2;
+}

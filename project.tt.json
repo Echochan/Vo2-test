@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "VO2TestMiniprogram",
+  "appid": "testAppId",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}
