@@ -8,6 +8,16 @@ const HEDAER = {
 
 const TIMEOUT = 20000
 
+const SERVER = 'https://asteroids.dev.mediasia.cn'
+// const SERVER = 'http://localhost:3001'
+
+const APIURLS = {
+  MINER: `${SERVER}/miners`,
+  PLANET: `${SERVER}/planets`,
+  ASTEROID: `${SERVER}/asteroids`,
+  HISTORY: `${SERVER}/history`,
+}
+
 class Request {
   sendRequest(url, method: TMethod = 'GET', data = '', header = HEDAER, timeout = TIMEOUT) {
     const reqeustParams = {
@@ -51,15 +61,6 @@ class Request {
   }
 }
 
-const SERVER = 'https://asteroids.dev.mediasia.cn'
-// const SERVER = 'http://localhost:3001'
-
-const APIURLS = {
-  MINER: `${SERVER}/miners`,
-  PLANET: `${SERVER}/planets`,
-  ASTEROID: `${SERVER}/asteroids`,
-  HISTORY: `${SERVER}/history`,
-}
 
 const requestInstance = new Request()
 
@@ -68,8 +69,28 @@ export const getMinersApi = () => {
  return requestInstance.get(APIURLS.MINER)
 }
 
+export const getMinerApi = (id) => {
+  return requestInstance.get(`${APIURLS.MINER}/${id}?time=${Date.now()}`)
+ }
+ 
+export const createMinerApi = (data) => {
+  return requestInstance.post(APIURLS.MINER, data)
+}
+
 // Planet apis
 export const getPlanetsApi = () => {
   return requestInstance.get(APIURLS.PLANET)
 }
+export const getPlanetApi = (id) => {
+  return requestInstance.get(`${APIURLS.PLANET}/${id}?time=${Date.now()}`)
+}
 
+// Asteroid apis
+export const getAsteroidsApi = () => {
+  return requestInstance.get(`${APIURLS.ASTEROID}?time=${Date.now()}`)
+}
+
+// History apis
+export const getHistoriesApi = (minerId) => {
+  return requestInstance.get(APIURLS.HISTORY, { time: Date.now(), minerId } )
+}

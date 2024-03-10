@@ -54,6 +54,7 @@
     "@tarojs/runtime": "3.6.24",
     "@tarojs/shared": "3.6.24",
     "@tarojs/taro": "3.6.24",
+    "moment": "^2.30.1",
     "preact": "^10.5.15",
     "socket-io": "^1.0.0",
     "socket.io-mp-client": "^1.1.19",

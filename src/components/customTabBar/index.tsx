@@ -1,5 +1,5 @@
 
-import Taro, { useLoad, useRouter } from '@tarojs/taro'
+import Taro, { useRouter } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 
 import './index.scss'
@@ -11,18 +11,18 @@ const tabBarConfig = [
     icon: 'vo-icon-miners-on',
     selectedIcon: 'vo-icon-miners-off'
   },
-  // {
-  //   pagePath: '/pages/asteroids/index',
-  //   text: 'Asteroids',
-  //   icon: 'vo-icon-asteroids-on',
-  //   selectedIcon: 'vo-icon-asteroids-off'
-  // },
-  // {
-  //   pagePath: '/pages/planets/index',
-  //   text: 'Planets',
-  //   icon: 'vo-icon-planets-on',
-  //   selectedIcon: 'vo-icon-planets-off'
-  // },
+  {
+    pagePath: '/pages/asteroids/index',
+    text: 'Asteroids',
+    icon: 'vo-icon-asteroids-on',
+    selectedIcon: 'vo-icon-asteroids-off'
+  },
+  {
+    pagePath: '/pages/planets/index',
+    text: 'Planets',
+    icon: 'vo-icon-planets-on',
+    selectedIcon: 'vo-icon-planets-off'
+  },
   // {
   //   pagePath: 'pages/livemap/index',
   //   text: 'Live Map',
@@ -30,7 +30,6 @@ const tabBarConfig = [
   //   selectedIcon: 'vo-icon-livemap-off'
   // },
 ]
-
 
 export default function CustomTabBar() {
   const { path: currentPath } = useRouter()

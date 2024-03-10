@@ -1,8 +1,11 @@
+import Taro from '@tarojs/taro'
 import { View, Text} from '@tarojs/components'
+
 import { EMinerStatus } from '@/config/enums'
 
-export default function Item({ miner, planets}) {
+export default function Item({ data, planets}) {
   const {
+    _id,
     planet,
     name,
     x,
@@ -11,10 +14,12 @@ export default function Item({ miner, planets}) {
     travelSpeed,
     status,
     minerals 
-  } = miner
+  } = data
 
   function handleClick() {
-    console.log('navigate to miner history')
+    Taro.navigateTo({
+      url: `/pages/minerHistory/index?minerId=${_id}&miner=${name}&planet=${planets[planet]?.name}`
+    })
   }
 
   return (

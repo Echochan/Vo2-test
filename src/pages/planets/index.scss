@@ -1,1 +1,15 @@
-
+.create-success {
+    position: fixed;
+    top: 180px;
+    left: 50%;
+    width: 273px;
+    height: 40px;
+    transform: translateX(-50%);
+    line-height: 40px;
+    z-index: 998;
+    background-color: #fff;
+    color: #44082E;
+    box-shadow: 0px 0px 12px 0px #FFBDDF;
+    text-align: center;
+    border-radius: 8px;
+}

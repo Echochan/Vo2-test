@@ -10,12 +10,15 @@ export default function CommonScrollView({children, className = ''}) {
   return (
     <>
       <CustomNavBar />
-        <TopNav />
-        <ScrollView className={ `${className} common-scroll-view`}>
-          <View className='common-scroll-content'>
-            {children}
-          </View>
-        </ScrollView>
+      
+      <TopNav/>
+      
+      <ScrollView className={ `${className} common-scroll-view`}>
+        <View className='common-scroll-content'>
+          {children}
+        </View>
+      </ScrollView>
+
       <CustomTabBar />
     </>
   )

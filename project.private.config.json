@@ -6,5 +6,39 @@
     "urlCheck": false,
     "autoAudits": false
   },
-  "libVersion": "3.1.5"
+  "libVersion": "3.1.5",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/asteroids/index",
+          "pathName": "pages/asteroids/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/minerHistory/index",
+          "pathName": "pages/minerHistory/index",
+          "query": "minerId=65edc3982263b1c57880fd78&miner=Miner%201&planet=Planet%203",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/createMiner/index",
+          "pathName": "pages/createMiner/index",
+          "query": "planetId=65edc3982263b1c57880fd59&planetName=Planet%201&planetMinerals=1197",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/planets/index",
+          "pathName": "pages/planets/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
 }
