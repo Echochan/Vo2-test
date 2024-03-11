@@ -28,10 +28,10 @@ export default function CreateMiner() {
     const {res: planet} = await asyncFunctionErrorCapture(getPlanetApi, planetId)
     setPlanet(planet)
   })
-
+  
   // 0  valid 
   // 1  empty
-  // 2  unvalid value  
+  // 2  invalid value  
   const [checkNameFail, setCheckNameFail] = useState(0)
   // const [checkPlanetFail, setCheckPlanetFail] = useState(0)
   const [checkCarryCapacityFail, setCheckCarryCapacityFail] = useState(0)
