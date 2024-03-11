@@ -1,4 +1,4 @@
-import { SERVER_URL } from './config'
+import { SERVER_URL } from '../utils/config'
 import VORequest from './requests'
 
 const APIURLS = {

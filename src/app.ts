@@ -3,7 +3,7 @@ import { useLaunch, useLoad } from '@tarojs/taro'
 import { PropsWithChildren, useContext } from 'react'
 
 import VoSocket from '@/services/websocket'
-import { SOCKET_URL } from './services/config'
+import { SOCKET_URL } from './utils/config'
 import { setGlobaldata } from './global.data'
 
 import './app.scss'
