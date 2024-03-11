@@ -2,7 +2,7 @@ VO2TestMiniprogram
 ===========
 
 ### About
-This is a test program, see more detail information in https://git.mediasia.cn/mediasia-interactive/taro-test. 
+This is a test program, see more details in https://git.mediasia.cn/mediasia-interactive/taro-test. 
 
 The backend service of websocket is developed with sokcet.io(4.5.0), so i use weapp.socket.io to create connection. https://github.com/weapp-socketio/weapp.socket.io.git.
 
@@ -39,3 +39,10 @@ Install dependencies:
 Build and you can see the project in wechat devtools
 
     $ npm run dev:weapp / npm run build:weapp
+
+
+### Remark
+I download the back-end code and run it locally and the socket can connect successfully.
+But when i use the remote url, the connection is fail.
+I am not sure if there's something wrong with my configure or the remote service.
+You can change the connection url in the file.[/src/utils/config.ts]
