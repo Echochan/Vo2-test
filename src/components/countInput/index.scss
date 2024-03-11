@@ -1,0 +1,30 @@
+.count-input {
+  position: relative;
+  background: linear-gradient(0deg, rgba(199, 206, 209, 0.2), rgba(199, 206, 209, 0.2)),
+    linear-gradient(0deg, rgba(199, 206, 209, 0.2), rgba(199, 206, 209, 0.2));
+  padding:0 8px;
+  height: unset;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  text-align: center;
+
+  input {
+    flex: 1;
+  }
+  .count-input-reduce,
+  .count-input-plus {
+    width: 30px;
+    height: 36px;
+    line-height: 36px;
+  }
+  .count-input-reduce {
+    font-size: 2px;
+    left: 10px;
+  }
+  .count-input-plus {
+    font-size: 20px;
+    right: 10px;
+  }
+}

@@ -43,7 +43,7 @@ export default function Index() {
 
   return (
     <CommonScrollView>
-      { miners?.map(miner => <MinerCard miner={miner} planets={planets} key={miner._id} />) }
+      { miners?.map(miner => <MinerCard data={miner} planets={planets} key={miner._id} />) }
     </CommonScrollView>
   )
 }

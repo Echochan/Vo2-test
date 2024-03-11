@@ -10,7 +10,9 @@ export default class VoSocket {
   }
 
   createConnection() {
-    this.socketTask = io(this.url)
+    this.socketTask = io(this.url, {
+      reconnectionAttempts: 3
+    })
     this.socketTask.on('disconnect', this.disconnect)
   }
 

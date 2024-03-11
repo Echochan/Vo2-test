@@ -1,8 +1,11 @@
 export default defineAppConfig({
   pages: [
     'pages/miners/index',
-    'pages/planets/index',
     'pages/asteroids/index',
+    'pages/planets/index',
+
+    'pages/minerHistory/index',
+    'pages/createMiner/index',
   ],
   window: {
     navigationStyle: 'custom',
