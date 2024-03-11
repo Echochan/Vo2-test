@@ -1,0 +1,22 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.status-bar {
+  height: 44px;
+  background-color: #251B2D;
+}
+.content-bar {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #251B2D;
+}
+
+.vo-icon-star {
+  font-size: 19px;
+}
