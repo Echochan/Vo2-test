@@ -2,11 +2,11 @@ import { useDidShow, useLoad, useRouter } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import { useState } from 'react'
 
-import { getPlanetsApi } from '@/services/requests'
+import { getPlanetsApi } from '@/services/apis'
 import { asyncFunctionErrorCapture } from '@/utils'
 import { getGlobaldata, setGlobaldata } from '@/global.data'
 
-import CommonScrollView from '@/components/commonScrollView'
+import CommonScrollView from '@/components/CommonScrollView'
 import PlanetCard from '@/pages/planets/item'
 
 import './index.scss'
@@ -25,7 +25,16 @@ export default function Index() {
   useLoad(async () => {
     const { res: planets } = await asyncFunctionErrorCapture(getPlanetsApi)
     setPlanets(planets)
+
+    handleSocket()
   })
+
+  const handleSocket = () => {
+    getGlobaldata('socket').receiveMessage(data => {
+      const {planets} = data
+      setPlanets(planets)
+    })
+  }
 
   return (
     <View>

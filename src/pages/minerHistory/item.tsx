@@ -1,7 +1,7 @@
 import { View, Text} from '@tarojs/components'
 import moment from 'moment'
 
-import { EHistoryStatus } from '@/config/enums'
+import { EHistoryStatus } from '@/utils/enums'
 
 import './index.scss'
 

@@ -1,10 +1,5 @@
 import io from './weapp.socket.io.js'
 
-// i download the back-end code and run it locally
-// and this socket can connect successfully 
-// but when i use the remote url, the connection is fail
-export const socketUrl =  'ws://localhost:3001'// 'wss://asteroids.dev.mediasia.cn'//
-
 export default class VoSocket {
   socketTask: any
   url: string

@@ -3,11 +3,11 @@ import { View } from '@tarojs/components'
 import { useState } from 'react'
 
 import { asyncFunctionErrorCapture } from '@/utils'
-import { getHistoriesApi } from '@/services/requests'
+import { getHistoriesApi } from '@/services/apis'
 
-import CommonScrollView from '@/components/commonScrollView'
+import CommonScrollView from '@/components/CommonScrollView'
 import HistoryCard from '@/pages/minerHistory/item'
-import TopBackBar from '@/components/topBackBar'
+import TopBackBar from '@/components/TopBackBar'
 
 import './index.scss'
 

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { View, Text} from '@tarojs/components'
 
-import { getMinerApi } from '@/services/requests'
+import { getMinerApi } from '@/services/apis'
 import { asyncFunctionErrorCapture } from '@/utils'
 
 export default function AsteroidCard({ data }) {
@@ -12,13 +12,15 @@ export default function AsteroidCard({ data }) {
     minerals,
   } = data
 
-  const [currentMinerName, setCurrentMinerName] = useState('')
+
+  const [currentMinerName, setCurrentMinerName] = useState(currentMiner?.name)
+
   const getMinerName = async () => {
     const { res } = await asyncFunctionErrorCapture(getMinerApi, currentMiner)
     res && setCurrentMinerName(res.name)
   }
 
-  if(currentMiner) {
+  if(currentMiner && !currentMiner.name) {
     getMinerName()
   }
   

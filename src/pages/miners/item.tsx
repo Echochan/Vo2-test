@@ -1,7 +1,7 @@
 import Taro from '@tarojs/taro'
 import { View, Text} from '@tarojs/components'
 
-import { EMinerStatus } from '@/config/enums'
+import { EMinerStatus } from '@/utils/enums'
 
 export default function Item({ data, planets}) {
   const {

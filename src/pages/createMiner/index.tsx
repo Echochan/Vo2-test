@@ -2,11 +2,11 @@ import Taro, { useLoad, useRouter } from '@tarojs/taro'
 import { Input, View, Button, Text } from '@tarojs/components'
 import { useState } from 'react'
 
-import CommonScrollView from '@/components/commonScrollView'
-import TopBackBar from '@/components/topBackBar'
-import CountInput from '@/components/countInput'
+import CommonScrollView from '@/components/CommonScrollView'
+import TopBackBar from '@/components/TopBackBar'
+import CountInput from '@/components/CountInput'
 
-import { createMinerApi, getPlanetApi} from '@/services/requests'
+import { createMinerApi, getPlanetApi} from '@/services/apis'
 import { asyncFunctionErrorCapture } from '@/utils'
 import { setGlobaldata } from '@/global.data'
 
