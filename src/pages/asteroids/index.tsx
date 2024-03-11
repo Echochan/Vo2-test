@@ -1,4 +1,4 @@
-import CommonScrollView from '@/components/commonScrollView'
+import CommonScrollView from '@/components/CommonScrollView'
 
 export default function Asteroid() {
     return (

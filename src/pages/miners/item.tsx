@@ -1,5 +1,5 @@
 import { View, Text} from '@tarojs/components'
-import { EMinerStatus } from '@/config/enums'
+import { EMinerStatus } from '@/utils/enums'
 
 export default function Item({ miner, planets}) {
   const {

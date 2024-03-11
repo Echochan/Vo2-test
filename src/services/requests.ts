@@ -1,5 +1,6 @@
 import Taro from '@tarojs/taro'
 
+
 type TMethod = 'GET' | 'PUT' | 'POST' | 'DELETE'
 
 const HEDAER = {
@@ -8,7 +9,7 @@ const HEDAER = {
 
 const TIMEOUT = 20000
 
-class Request {
+export default class VORequest {
   sendRequest(url, method: TMethod = 'GET', data = '', header = HEDAER, timeout = TIMEOUT) {
     const reqeustParams = {
       url,
@@ -50,26 +51,3 @@ class Request {
     return this.sendRequest(url, 'DELETE', data)
   }
 }
-
-const SERVER = 'https://asteroids.dev.mediasia.cn'
-// const SERVER = 'http://localhost:3001'
-
-const APIURLS = {
-  MINER: `${SERVER}/miners`,
-  PLANET: `${SERVER}/planets`,
-  ASTEROID: `${SERVER}/asteroids`,
-  HISTORY: `${SERVER}/history`,
-}
-
-const requestInstance = new Request()
-
-// Miner apis
-export const getMinersApi = () => {
- return requestInstance.get(APIURLS.MINER)
-}
-
-// Planet apis
-export const getPlanetsApi = () => {
-  return requestInstance.get(APIURLS.PLANET)
-}
-

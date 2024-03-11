@@ -1,8 +1,8 @@
 import { ScrollView, View } from '@tarojs/components'
 
-import CustomNavBar from '../customNavBar'
-import TopNav from '@/components/topNav'
-import CustomTabBar from '@/components/customTabBar'
+import CustomNavBar from '../CustomNavBar'
+import TopNav from '@/components/TopNav'
+import CustomTabBar from '@/components/CustomTabBar'
 
 import './index.scss'
 

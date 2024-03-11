@@ -1,12 +1,12 @@
 import { useLoad } from '@tarojs/taro'
 import { useState } from 'react'
 
-import { getMinersApi, getPlanetsApi } from '@/services/requests'
+import { getMinersApi, getPlanetsApi } from '@/services/apis'
 import { asyncFunctionErrorCapture } from '@/utils'
 import { getGlobaldata } from '@/global.data'
 
 import MinerCard from '@/pages/miners/item'
-import CommonScrollView from '@/components/commonScrollView'
+import CommonScrollView from '@/components/CommonScrollView'
 
 export default function Index() {
   const [miners, setMiners] = useState<IMiner[]>()
@@ -28,12 +28,13 @@ export default function Index() {
       setPlanets(planetsData)
     }
 
-    // handleSocket()
+    handleSocket()
 
   })
 
   const handleSocket = () => {
     getGlobaldata('socket').receiveMessage(data => {
+      console.log('recive socket message')
       const {miners} = data
       setMiners(miners)
       setPlanets('')
