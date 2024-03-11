@@ -33,7 +33,7 @@ export default function CreateMiner() {
   // 1  empty
   // 2  unvalid value  
   const [checkNameFail, setCheckNameFail] = useState(0)
-  const [checkPlanetFail, setCheckPlanetFail] = useState(0)
+  // const [checkPlanetFail, setCheckPlanetFail] = useState(0)
   const [checkCarryCapacityFail, setCheckCarryCapacityFail] = useState(0)
   const [checkTravelSpeedFail, setCheckTravelSpeedFail] = useState(0)
   const [checkminingSpeedFail, setCheckminingSpeedFail] = useState(0)
@@ -54,12 +54,12 @@ export default function CreateMiner() {
       setCheckNameFail(0)
     }
 
-    if (planet === '') {
+    /* if (planet === '') {
       failCount++
       setCheckPlanetFail(1)
     } else {
       setCheckPlanetFail(0)
-    }
+    } */
 
     if (carryCapacity === '') {
       failCount++
